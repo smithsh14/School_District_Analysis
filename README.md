@@ -25,16 +25,37 @@ NaNs Image
 
 ### How was the school summary affected? 
 Initial Image
-![Pic_3]https://github.com/smithsh14/School_District_Analysis/blob/main/03_PyCitySchools_Challenge-JupyterNotebook.perSchool_Initial.png 
+![Pic_3]https://github.com/smithsh14/School_District_Analysis/blob/58592e53cc1cfabfc457483285c7863a95397197/05_PyCitySchools_PerSchoolSummary_initial.png
 
-Just as in the above analysis, there is only a slight difference in the overall passing rate for Thomas High School before replacing the math and reading scores at 90.94% and after replacing them at 90.63%. A total difference of only .31%.
-![Pic_4]https://github.com/smithsh14/School_District_Analysis/blob/main/04_PyCitySchools_Challenge-JupyterNotebook.perSchool_Revised.png 
+NaNs Image
+![Pic_4]https://github.com/smithsh14/School_District_Analysis/blob/58592e53cc1cfabfc457483285c7863a95397197/05_PyCitySchools_PerSchoolSummary_NaNs.png
+ 
+When isolating out the data for Thomas High School after replacing the math and reading scores with NaNs, we recongnize the following:
+
+    - Between the two images, we can see the following categories returned the same value
+        - Total School Budget ($1,043,130.00)
+        - Per Student Budget ($638.00)
+    
+    - However, there were differences in the values in the following categories
+        - Average Math Score (.06 decrease in value from the initial analysis)
+        - Aveerage Reading Score (.05 increase in the value from the initial analysis)
+        - Percentage Passing Math (26.36% decrease from the initial analysis)
+        - Percentage Passing Reading (27.65% decrease from the initial analysis)
+        - Percentage Overall Passing (25.87% decrease from the initial analysis)
+
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-After replacing the ninth graders' math and reading scores, Thomas High School's overall performance remained in the top five relative to the other schools. 
+In regards to Thomas High School's performance, we can see...
+
+    - Average Math Score and Average Reading scores dropped to 23-25.
+    - % Passing Students for Math and Reading dropped to almost 27%.
+    - % Overall passing students dropped to almost 25%.
+
 
 ### How does replacing the ninth-grade scores affect the following:
 
 #### Math and reading scores by grade
+Initial Math Image
+![Pic_5]
 #### Scores by school spending
 #### Scores by school size
 #### Scores by school type

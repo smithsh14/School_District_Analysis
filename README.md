@@ -6,10 +6,10 @@ Through the course of the project, we have been assisting Maria gather the data 
 After removing the ninth-grade math and reading scores from Thomas High School, it affected the summary tables by reducing the average scores and decreasing the passing percentage rate, in both reading and math passing rates and overall passing percentage.
 ### How was the district summary affected?
 Initial Image
-![Pic_2]https://github.com/smithsh14/School_District_Analysis/blob/main/02_PyCitySchools_Challenge-JupyterNotebook.png
+![Pic_2](
 
 NaNs Image
-![Pic_1]https://github.com/smithsh14/School_District_Analysis/01_PyCitySchools_Challenge-JupyterNotebook.png
+![Pic_1]
 
     - The data was only slighly affected once it was reanalyzed after the reading and math test scores for Thomas High School were replaced with NaNs. 
 
@@ -25,7 +25,7 @@ NaNs Image
 
 ### How was the school summary affected? 
 Initial Image
-![Pic_3]https://github.com/smithsh14/School_District_Analysis/blob/58592e53cc1cfabfc457483285c7863a95397197/05_PyCitySchools_PerSchoolSummary_initial.png
+![Pic_3](https://github.com/smithsh14/School_District_Analysis/blob/main/03_PyCitySchools_Challenge-JupyterNotebook.perSchool_Initial.png) 
 
 NaNs Image
 ![Pic_4]https://github.com/smithsh14/School_District_Analysis/blob/58592e53cc1cfabfc457483285c7863a95397197/05_PyCitySchools_PerSchoolSummary_NaNs.png

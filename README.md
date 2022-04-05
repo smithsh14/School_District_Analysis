@@ -59,6 +59,19 @@ When isolating out the data for Thomas High School after replacing the math and 
 The average math score and average reading scores dropped by 23-25 points.
 The percentage of students passing for math and reading dropped by almost 27%.
 The percentage of overall passing students dropped by almost 25%.
+### Top 5 ann Bottom 5 Breakdown
+
+Top 5 Schools based off of Initial values
+![Pic_16](
+
+Top 5 Schools with replacement values
+![Pic_17](
+
+Bottom 5 Schools based off of Initial values
+![Pic_18](
+
+Bottom 5 Schools with replacement values
+![Pic_19](
 
 #### Scores by school size
 
@@ -76,23 +89,35 @@ Iniital Average Reading Score
 
 Replaced Average Reading Score
 
-![Pic_09](https://github.com/smithsh14/School_District_Analysis/blob/main/07_PyCitySchools_Reading_per_Grade-Initial.png)
+![Pic_09](https://github.com/smithsh14/School_District_Analysis/blob/main/Reading_Grade_replacement.png)
+
+-   The only score that is impacted on this DataFrame is that the grade 9 students at Thomas High School have Nan instead of a grade for both math and reading. If we ran a sum or mean of the DataFrame, we would see a difference between the orignal and updated.
 
 #### Scores by school spending
 ![Pic_10](https://github.com/smithsh14/School_District_Analysis/blob/main/10_PyCitySchools_Spending_Initial.png)
 ![Pic_11](https://github.com/smithsh14/School_District_Analysis/blob/main/11_PyCitySchools_Spending_NaNs.png)
 
+-   There was a slight change in the scores by school spending groups scores for the $630-644 per student grouping as this is where Thomas High School is grouped, however the change is small with each metric changing less than 0.1 percentage points (or change of less than 0.1%).
+
 #### Scores by school size
 ![Pic_12](https://github.com/smithsh14/School_District_Analysis/blob/main/12_PyCitySchools_School_Size_Initial.png)
 ![Pic_13](https://github.com/smithsh14/School_District_Analysis/blob/main/13_PyCitySchools_School_Size_NaNs.png)
 
->>>>>>> f06944df114208ba454c823b570b4e0735085300
+-   The scores for the Medium (1000-2000) size schools changed slightly (less than 1 percentage point). They were impacted as Thomas High School included in this group as it has 1,635 students who attend (including the grade 9 students).
+
 #### Scores by school type
 ![Pic_14](https://github.com/smithsh14/School_District_Analysis/blob/main/14_PyCitySchools_School_Type_Initial.png)
 ![Pic_15](https://github.com/smithsh14/School_District_Analysis/blob/main/15_PyCitySchools_School_Type_NaNs.png)
 
-![Pic_14]
-![Pic_15]
+-   Thomas High School is a Charter type school, so this is why we see changes to the scores for Charter (again less than change of 0.1% each metric), but no changes to District type school scores as Thomas High School not part of that group and no other school scores were affected.
+
 
 ## Summary
 A summary of the four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School after being replaced with NaNs.
+
+
+-   District Analysis - changes to all scores by less than 0.5 percentage points (or change by less than 0.5%) - no impact to school or student count.
+-   Top School Ranking - no change to ranking, however Thomas High School scores did change, but by less than 1 percentage point (or changed by less than 1%) for each metric.
+-   Scores by School Size - changes to Medium (1000-2000) grouping for all scores by less than 0.1 percentage points (or change by less than 0.1%).
+-   Scores by School Type - chages to Charter type grouping for all scores by less than 0.1 percentage points (or change by less than 0.1%).
+

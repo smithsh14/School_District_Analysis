@@ -62,16 +62,20 @@ The percentage of overall passing students dropped by almost 25%.
 ### Top 5 ann Bottom 5 Breakdown
 
 Top 5 Schools based off of Initial values
-![Pic_16](
+![Pic_16](https://github.com/smithsh14/School_District_Analysis/blob/main/16_PyCitySchools_Top5_Initial.png)
 
 Top 5 Schools with replacement values
-![Pic_17](
+![Pic_17](https://github.com/smithsh14/School_District_Analysis/blob/main/17_PyCitySchools_Bottom5_Initial.png)
 
 Bottom 5 Schools based off of Initial values
-![Pic_18](
+![Pic_18](https://github.com/smithsh14/School_District_Analysis/blob/main/18_PyCitySchools_Challenge_Top5_Replaced.png)
 
 Bottom 5 Schools with replacement values
-![Pic_19](
+![Pic_19](https://github.com/smithsh14/School_District_Analysis/blob/main/19_PyCitySchools_Challenge_Bottom5_Replaced.png)
+
+-   The ranking of the top schools including Thomas High School was not affected by the update. Although the average math, reading and overall scores at Thomas High School were impacted with the update, the changes were not enough to change its relative ranking versus other schools. The changes only had a small impact of less than a change of 1 percentage point on each metric.
+
+-   The ranking of the bottom schools was not affected by the update as the only metrics impacted where at Thomas High School as we are looking at each school's scores. Although the average math, reading and overall scores at Thomas High School were impacted with the update, the changes were not enough to change its relative ranking versus other schools. 
 
 #### Scores by school size
 
